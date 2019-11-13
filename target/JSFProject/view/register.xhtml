@@ -5,15 +5,23 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
+
     <h:body>
-        <h1>Registration</h1>
-        <h2>Enter your details:</h2>
-        <h:form>
-            First Name: <h:inputText value="#{userBean.user.firstName}" /> <br/>
-            Surname: <h:inputText value="#{userBean.user.surname}" /> <br/>
-            Username: <h:inputText value="#{userBean.user.username}" /> <br/>
-            Password: <h:inputSecret value="#{userBean.user.password}" /> <br/>
-            <h:commandButton value="Submit" action="#{userBean.registerNewUser}"/>
-        </h:form>
+        <ui:composition template="/WEB-INF/template/mainTemplate.xhtml">
+            <ui:define name="content">
+                <h1>Registration</h1>
+                <h2>Enter your details:</h2>
+                <h:form>
+                    <div id="registerFields">
+                        First Name: <h:inputText value="#{userBean.user.firstName}" /> <br/>
+                        Surname: <h:inputText value="#{userBean.user.surname}" /> <br/>
+                        Username: <h:inputText value="#{userBean.user.username}" /> <br/>
+                        Password: <h:inputSecret value="#{userBean.user.password}" /> <br/>
+                    </div>
+                    <h:commandButton value="Submit" action="#{userBean.registerNewUser}"/><br/>
+                    <h:commandButton value="Cancel" action="signIn"/>
+                </h:form>
+            </ui:define>
+        </ui:composition>
     </h:body>
 </html>

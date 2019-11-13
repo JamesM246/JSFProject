@@ -7,11 +7,15 @@
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 
     <h:body>
-        <h1>The Web App - Login Page</h1>
-        <h:form>
-            Username: <h:inputText value="#{userBean.user.username}"/><br/>
-            Password: <h:inputSecret value="#{userBean.user.password}"/><br/>
-            <h:commandButton value="Submit" action="#{userBean.validateUser()}"/>
-        </h:form>
+        <ui:composition template="/WEB-INF/template/mainTemplate.xhtml">
+            <ui:define name="content">
+                <h1>The Web App - Login Page</h1>
+                <h:form>
+                    Username: <h:inputText value="#{userBean.user.username}"/><br/>
+                    Password: <h:inputSecret value="#{userBean.user.password}"/><br/>
+                    <h:commandButton value="Submit" action="#{userBean.validateUser()}"/>
+                </h:form>
+            </ui:define>
+        </ui:composition>
     </h:body>
 </html>

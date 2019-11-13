@@ -10,7 +10,7 @@ import javax.inject.Named;
 
 @Named
 @RequestScoped
-public class userBean {
+public class UserBean {
     @Inject
     private RegistrationService registrationService;
     @Inject

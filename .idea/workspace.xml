@@ -6,7 +6,31 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f36ef58-c0a7-4238-993e-cae9abef7d51" name="Default Changelist" comment="" />
+    <list default="true" id="2f36ef58-c0a7-4238-993e-cae9abef7d51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/contentTemplate.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/footerTemplate.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/headerTemplate.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/mainTemplate.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/spartaLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sparta/com/jmm/beans/userBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sparta/com/jmm/beans/UserBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/login.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/register.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/register.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/signIn.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/signIn.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/welcome.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/welcome.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JSFProject/WEB-INF/classes/sparta/com/jmm/beans/userBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSFProject/WEB-INF/classes/sparta/com/jmm/beans/userBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JSFProject/view/login.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSFProject/view/login.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JSFProject/view/register.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSFProject/view/register.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JSFProject/view/signIn.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSFProject/view/signIn.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JSFProject/view/welcome.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSFProject/view/welcome.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparta/com/jmm/beans/userBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparta/com/jmm/beans/userBean.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +42,12 @@
       <list>
         <option value="Class" />
         <option value="jsf" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -29,20 +57,26 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1TVw9jpUSPmp8t70zwxDRXCr3Y1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloMavenWebWorld" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="sparta.com.jmm.services" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\James Maguire\IdeaProjects\JSFProject\src\main\webapp\view" />
+      <recent name="C:\Users\James Maguire\IdeaProjects\JSFProject\src\main\webapp" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sparta.com.jmm.services" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -142,11 +176,28 @@
       <option name="presentableId" value="Default" />
       <updated>1573558420623</updated>
       <workItem from="1573558422410" duration="12962000" />
-      <workItem from="1573635478917" duration="593000" />
+      <workItem from="1573635478917" duration="5369000" />
+      <workItem from="1573642225815" duration="5173000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
